@@ -134,7 +134,7 @@ body {
     flex-direction: column;
     height: 500px;
     width: auto;
-    background-image: linear-gradient(to top, rgb(206, 202, 202), rgb(194, 193, 193));
+    background-image: linear-gradient(to bottom, rgb(206, 202, 202), rgba(126, 124, 124, 0.74));
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;  
@@ -151,4 +151,63 @@ body {
 
 .inspiring-quote .author {
     display: flex;
+}
+
+.sign-up {
+    display:flex;
+    height: 350px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sign-up .bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 275px;
+    background-image: linear-gradient(to right, rgba(231, 100, 100, 0.801), rgb(75, 73, 190));
+    border-radius: 25px;
+}
+
+.sign-up .text {
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    width: 275px;
+    font-size: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .head {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sign-up .subtext {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.sign-up .button {
+    display: flex;
+    border-radius: 12.5px;
+    height: 25px;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.copyright {
+    display: flex;
+    height: 55px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgba(49, 129, 53, 0.712), rgba(65, 65, 180, 0.808));
 }
