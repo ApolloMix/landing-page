@@ -1,0 +1,155 @@
+body {
+    display: flex;
+    max-width: auto;
+    max-height: auto;
+    margin: auto;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    background-image: linear-gradient(to bottom right, rgba(49, 129, 53, 0.712), rgba(65, 65, 180, 0.808));
+    height: 400px;
+    width: auto;
+    flex-direction: column;
+    
+}
+
+.header .top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .bottom {
+    display: flex;
+    justify-content: space-around;
+    height: inherit;
+
+}
+
+.logo {
+    display: flex;
+    height: 45px;
+    width: fit-content;
+    margin-right: 200px;
+}
+
+.links-list {
+    display: flex;
+    height: fit-content;
+    width: 300px;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+.header .image {
+    display: flex;
+    background-color: purple;
+    height: 165px;
+    width: fit-content;
+    align-self: center;
+    margin-left: 44px;
+    border: solid rgb(60, 73, 116);
+
+}
+
+.header .quote-area {
+    display:flex;
+    height: fit-content;
+    width: 376px;
+    flex-direction: column;
+    font-size: 16px;
+    border: solid black;
+    word-wrap: normal;
+    align-self: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+    background-image: linear-gradient(to top, rgb(206, 202, 202), rgb(194, 193, 193));
+}
+
+.information .top {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.information .header-text {
+    display: flex;
+    height: 45px;
+    width: auto;
+    align-items: center;
+    font-size: 25px;
+}
+
+.information .content {
+    display: flex;
+    height: 310px;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.information .item {
+    display: flex;
+    flex-direction: column;;
+    border-radius: 50px;
+    height: 220px;
+    width: 150px;
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-bottom: 0px;
+    background-image: linear-gradient(to bottom, rgba(72, 161, 72, 0.712), rgba(0, 0, 0, 0.658));
+}
+
+.information .picture {
+    display: flex;
+    height: 100px;
+    width: 140px;
+    border: solid pink;
+    border-radius: inherit;
+    overflow: hidden;
+    align-self: center;
+}
+
+.information .text {
+    display: flex;
+    height: fit-content;
+    width: 125px;
+    font-size: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+    margin-top: 25px;
+    
+}
+
+.inspiring-quote {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: auto;
+    background-image: linear-gradient(to top, rgb(206, 202, 202), rgb(194, 193, 193));
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    line-height: 39px;
+    
+}
+
+.inspiring-quote .quote {
+    display: flex;
+    height: 175px;
+    width: 525px;
+    font-size: 20px; 
+}
+
+.inspiring-quote .author {
+    display: flex;
+}
